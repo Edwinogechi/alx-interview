@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Module for 0x02-minimum_operations"""
+"""Module for 0x02-minimum_operations"""
 
 
 def minOperations(n):
@@ -17,7 +17,7 @@ def minOperations(n):
             # Total even divisions by root = total operations
             ops += root
             # Set n to the remainder
-            n = n / root
+            n = n // root
             # Reduce root to find remaining smaller values that evenly divide n
             root -= 1
         # Increment root until it evenly divides n
