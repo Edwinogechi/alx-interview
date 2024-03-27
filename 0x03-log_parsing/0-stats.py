@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""script reads input from standard input line by line and calculates metrics"""
+"""Reads from standard input line by line and calculates metrics"""
 
 import sys
 
