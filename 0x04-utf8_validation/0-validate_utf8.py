@@ -4,7 +4,8 @@
 
 def validUTF8(data):
     """
-    A function to determine whether a given dataset represents a valid UTF-8 encoding.
+    A function to determine whether a given dataset represents
+    a valid UTF-8 encoding.
     """
     byte_count = 0
 
