@@ -12,7 +12,7 @@ def rotate_2d_matrix(matrix):
         for j in range(i, (len(matrix) - i - 1)):
             # Calculate the corresponding indices for rotation
             x = (len(matrix) - 1 - j)
-            
+
             # Perform the rotation in-place
             tmp = matrix[i][j]
             matrix[i][j] = matrix[x][i]
